@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+}
+
+.wrapper {
+  width: 1920px;
+  margin: 0 405px;
+  box-sizing: border-box;
+}
+
+.landing {
+  background-image: url("./assets/bgc.png");
+  width: 1920px;
+  height: 900px;
+}
+.adress {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  padding: 30px 0 20px 0;
+}
+.adress-content {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 150%;
+
+  color: #ffffff;
+}
