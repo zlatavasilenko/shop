@@ -17,10 +17,11 @@ body {
   width: 1920px;
   height: 900px;
 }
+
 .adress {
   display: flex;
   justify-content: space-between;
-  width: 1100px;
+  width: 1110px;
   padding: 30px 0 20px 0;
 }
 .adress-content {
@@ -29,6 +30,123 @@ body {
   font-weight: 500;
   font-size: 13px;
   line-height: 150%;
+  color: #ffffff;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  width: 1100px;
+  padding: 30px 0 20px 0;
+}
+.buttons {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  width: 1110px;
+  padding-top: 548px;
+}
 
+.button1 {
+  padding: 15px 30px;
+  background: #998431;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 15px;
+}
+
+.button2 {
+  padding: 15px 30px;
+  background: #998431;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 15px;
+}
+
+.landing2 {
+  background-color: #282828;
+  width: 1920px;
+  height: 856px;
+  top: 900px;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  width: 1110px;
+  padding-top: 69px;
+  font-family: Playfair Display;
+  font-size: 36px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.text2 {
+  display: flex;
+  justify-content: center;
+  width: 1100px;
+  padding-top: 80px;
+}
+.shrift {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+  width: 733px;
+  height: 192px;
+}
+.bokal {
+  display: flex;
+  justify-content: center;
+  width: 1100px;
+  padding-top: 50px;
+  height: 160px;
+  left: 880px;
+  top: 1436px;
+}
+.vino {
+  border: solid;
+  border: 3px solid #c4c4c4;
+  box-sizing: border-box;
+  position: absolute;
+  width: 1110px;
+  height: 665px;
+  left: 405px;
+  top: 991px;
+}
+.landing3 {
+  background-color: #e6e3c4;
+  width: 1920px;
+  height: 1038px;
+}
+.landing4 {
+  background-color: #282828;
+  width: 1920px;
+  height: 767px;
+}
+.landing5 {
+  background-color: #998431;
+  width: 1920px;
+  height: 220px;
+}
+.row1 {
+  display: flex;
+  justify-content: space-between;
+  width: 1110px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
   color: #ffffff;
 }
