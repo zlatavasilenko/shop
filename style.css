@@ -242,33 +242,51 @@ body {
   width: 1920px;
   height: 767px;
 }
-.str4 {
+.osnova {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 1110px;
-  padding-top: 109px;
-}
-
-.okno {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: 3px solid #ffffff;
-  width: 1110px;
-  height: 438px;
   padding-top: 129px;
 }
-.zapis {position: fixed;
-  padding-top: 100px;
-  font-family: Playfair Display;
-  
-  font-size: 36px;
-  width: 490;
-  height: 74px;
-  background-color: black;
+.ramka {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 3px solid #ffffff;
+  width: 1110px;
+  height: 538px;
+  box-sizing: border-box;
+}
+
+.line41 {
+  border-bottom: 1px solid #ffffff;
+  width: 118px;
+  padding-top: 30px;
+}
+.text4.2 {
+  width: 539;
+  height: 72px;
+}
+.input {
+  display: flex;
+  justify-content: center;
+}
+.input1 {
+  box-sizing: border-box;
+  margin: 0;
+  outline: none;
+  width: 255px;
+  height: 30px;
+  color: #ffffff;
+  background: transparent !important;
+  border-color: transparent;
+  outline: none;
+  border-bottom: 1px solid #ffffff;
+  border-radius: none;
+  background-clip: padding-box;
+}
+.vnytri {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .landing5 {
   background-color: #998431;
@@ -280,6 +298,7 @@ body {
   justify-content: space-around;
   padding-top: 50px;
 }
+
 .row1 {
   display: flex;
   justify-content: space-around;
@@ -303,13 +322,29 @@ body {
   width: 1110px;
   text-align: center;
   text-transform: uppercase;
-  padding-top: 19px;
-  height: 35px;
+  height: 60px;
   border-bottom: 1px solid #ffffff;
 }
 .spisok2 {
   display: flex;
   justify-content: center;
-  height: 41px;
+  text-align: center;
+  padding-top: 20px;
+  width: 277.5px;
   border-right: 1px solid #ffffff;
+}
+
+.spisok2:nth-child(4) {
+  border-right: none;
+}
+.spisok3 {
+  display: flex;
+  justify-content: space-around;
+  width: 277px;
+  border-right: 1px solid #ffffff;
+}
+.sp3 {
+  width: 23px;
+  height: 23px;
+  padding-top: 15px;
 }
